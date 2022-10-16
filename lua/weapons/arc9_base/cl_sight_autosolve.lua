@@ -21,7 +21,10 @@ function SWEP:GenerateAutoSight(sight, slottbl)
     s_pos = s_pos + (forward * pos.y)
     s_pos = s_pos + (up * -pos.z)
 
+    -- print(s_ang)
     -- print(ang)
+    s_ang = ang
+    -- print(s_ang)
 
     return {
         Pos = s_pos,
